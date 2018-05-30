@@ -8,11 +8,14 @@ public class ParticipantList {
 	private final List<Participant> allParticipants = new ArrayList<>();
 
 	public ParticipantList() {
+
 		this.allParticipants.add(new Participant("mirkoj"));
 		this.allParticipants.add(new Participant("braunm"));
 		this.allParticipants.add(new Participant("noni4"));
 		this.allParticipants.add(new Participant("fweiland"));
 		this.allParticipants.add(new Participant("mwever"));
+		allParticipants.add(new Participant("jssch"));
+
 	}
 
 	@Override
