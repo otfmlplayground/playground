@@ -9,6 +9,8 @@ public class ParticipantList {
 
 	public ParticipantList() {
 		allParticipants.add(new Participant("mirkoj"));
+		allParticipants.add(new Participant("braunm"));
+		allParticipants.add(new Participant("noni4"));
 	}
 
 	@Override

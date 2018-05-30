@@ -32,6 +32,8 @@ public class IntegrationTest {
    public static Collection<String[]> participants() {
       return Arrays.asList(new String[][] {
          { "mirkoj" },
+         {"braunm"},
+         {"noni4"}
 //         { "fweiland" },
 //			...
       });
