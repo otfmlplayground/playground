@@ -5,16 +5,17 @@ import java.util.List;
 
 public class ParticipantList {
 
-	private List<Participant> allParticipants = new ArrayList<>();
+	private final List<Participant> allParticipants = new ArrayList<>();
 
 	public ParticipantList() {
-		allParticipants.add(new Participant("mirkoj"));
-		allParticipants.add(new Participant("braunm"));
-		allParticipants.add(new Participant("noni4"));
+		this.allParticipants.add(new Participant("mirkoj"));
+		this.allParticipants.add(new Participant("braunm"));
+		this.allParticipants.add(new Participant("noni4"));
+		this.allParticipants.add(new Participant("fweiland"));
 	}
 
 	@Override
 	public String toString() {
-		return allParticipants.toString();
+		return this.allParticipants.toString();
 	}
 }
