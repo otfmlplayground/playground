@@ -28,6 +28,18 @@ public class IntegrationTest {
 	public void test() {
 		assertTrue(this.participants.toString().contains(this.toCheck));
 	}
+	
+   @Parameters(name="{0}")
+   public static Collection<String[]> participants() {
+      return Arrays.asList(new String[][] {
+         { "mirkoj" },
+         {"braunm"},
+         {"noni4"},
+         { "helebeen " }
+//         { "fweiland" },
+//			...
+      });
+   }
 
 	@Parameters(name = "{0}")
 	public static Collection<String[]> participants() {
