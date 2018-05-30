@@ -9,6 +9,7 @@ public class ParticipantList {
 
 	public ParticipantList() {
 		this.allParticipants.add(new Participant("mirkoj"));
+		this.allParticipants.add(new Participant("jnowack"));
 		this.allParticipants.add(new Participant("braunm"));
 		this.allParticipants.add(new Participant("noni4"));
 		this.allParticipants.add(new Participant("fweiland"));
