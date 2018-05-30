@@ -31,11 +31,9 @@ public class IntegrationTest {
    @Parameters(name="{0}")
    public static Collection<String[]> participants() {
       return Arrays.asList(new String[][] {
-         { "Mirko Jürgens" },
-         { "Felix Weiland" },
-         { "Helena Graf" },
-         { "Joshua Nowack" },
-//         { "" }
+         { "mirkoj" },
+//         { "fweiland" },
+//			...
       });
    }
 
