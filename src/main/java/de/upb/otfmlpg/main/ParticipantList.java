@@ -11,7 +11,7 @@ public class ParticipantList {
 		this.allParticipants.add(new Participant("mirkoj"));
 		this.allParticipants.add(new Participant("braunm"));
 		this.allParticipants.add(new Participant("noni4"));
-		this.allParticipants.add(new Participant("fweiland"));
+		this.allParticipants.add(new Participant("FWeiland"));
 		this.allParticipants.add(new Participant("mwever"));
 	}
 

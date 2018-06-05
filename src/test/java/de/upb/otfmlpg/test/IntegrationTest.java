@@ -31,6 +31,6 @@ public class IntegrationTest {
 
 	@Parameters(name = "{0}")
 	public static Collection<String[]> participants() {
-		return Arrays.asList(new String[][] { { "mirkoj" }, { "braunm" }, { "noni4" }, { "fweiland" }, {"mwever"}});
+		return Arrays.asList(new String[][] { { "mirkoj" }, { "braunm" }, { "noni4" }, { "FWeiland" }, {"mwever"}});
 	}
 }
