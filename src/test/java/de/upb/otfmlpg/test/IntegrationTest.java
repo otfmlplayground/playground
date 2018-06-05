@@ -28,6 +28,19 @@ public class IntegrationTest {
 	public void test() {
 		assertTrue(this.participants.toString().contains(this.toCheck));
 	}
+<<<<<<< HEAD
+=======
+	
+   @Parameters(name="{0}")
+   public static Collection<String[]> participants() {
+      return Arrays.asList(new String[][] {
+         { "mirkoj" },
+         { "jmhansel" }
+//         { "fweiland" },
+//			...
+      });
+   }
+>>>>>>> add my name to unit test
 
 	@Parameters(name = "{0}")
 	public static Collection<String[]> participants() {
