@@ -13,6 +13,12 @@ public class ParticipantList {
 		this.allParticipants.add(new Participant("noni4"));
 		this.allParticipants.add(new Participant("fweiland"));
 		this.allParticipants.add(new Participant("mwever"));
+		allParticipants.add(new Participant("mirkoj"));
+		allParticipants.add(new Participant("braunm"));
+		allParticipants.add(new Participant("noni4"));
+		allParticipants.add(new Participant("helebeen "));
+
+
 	}
 
 	@Override
